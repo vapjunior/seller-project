@@ -1,6 +1,6 @@
 # Seller Project
 
-This project provides a web solution for manage products and kits with MercadoLivre API for get products categories. This is the front-end repositorie, the back-end with api is: (https://github.com/ValdirJunior/product-kit-api)
+Este projete disponiliza uma aplicação Front-End em ReactJS e uma API no Back-End em Laravel. Possibilitando fazer a gestão de vendedores e vendas, calculando o porcentual de comissão por venda e total, junto a um relatório por email que é enviado diariamente de maneira automática.
 
 ## Requirements
 
