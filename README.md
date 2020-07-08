@@ -71,8 +71,8 @@ This project provides a web solution for manage products and kits with MercadoLi
 
    | Atributo     | Tipo do dado        | Descrição                                    | Obrigatório     | Valor padrão     | Exemplo            |
    |----------    |--------------       |------------------------------------------    |-------------    |--------------    |------------        |
-   | name         | alfanumérico        | Nome do Vendedor                             | sim             | -                | José               |
-   | email        | alfanumérico,email  | Email do Vendedor                            | sim             | -                | jose@emai.com      |
+   | name         | alfanumérico        | Nome do Vendedor                             | sim             | -                | Vendedor 1         |
+   | email        | alfanumérico,email  | Email do Vendedor                            | sim             | -                | v1@emai.com      |
 
 * **Retorno**
   
@@ -141,7 +141,7 @@ This project provides a web solution for manage products and kits with MercadoLi
 
 * **Retorno**
   
-  **Status Code:** 200
+  **Status Code:** 201
   
     ```json
     {
@@ -161,7 +161,7 @@ This project provides a web solution for manage products and kits with MercadoLi
 ### Listar Vendas de um Vendedor
 
 * **URL**
-  `/sales/{id}`
+  `/sales/{seller_id}`
 
 * **Method**
   `GET`
