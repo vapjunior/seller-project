@@ -1,0 +1,39 @@
+3
+SendGrid\Response {#1044
+  #statusCode: 202
+  #body: ""
+  #headers: array:13 [
+    0 => "HTTP/1.1 202 Accepted"
+    1 => "Server: nginx"
+    2 => "Date: Wed, 08 Jul 2020 18:16:05 GMT"
+    3 => "Content-Length: 0"
+    4 => "Connection: keep-alive"
+    5 => "X-Message-Id: TYjCg3OUTBmwYF9OCUWnbA"
+    6 => "Access-Control-Allow-Origin: https://sendgrid.api-docs.io"
+    7 => "Access-Control-Allow-Methods: POST"
+    8 => "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl"
+    9 => "Access-Control-Max-Age: 600"
+    10 => "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html"
+    11 => ""
+    12 => ""
+  ]
+}
+SendGrid\Response {#1044
+  #statusCode: 202
+  #body: ""
+  #headers: array:13 [
+    0 => "HTTP/1.1 202 Accepted"
+    1 => "Server: nginx"
+    2 => "Date: Wed, 08 Jul 2020 18:32:05 GMT"
+    3 => "Content-Length: 0"
+    4 => "Connection: keep-alive"
+    5 => "X-Message-Id: 8nlbXNwaSg-U9OVeR5Rzdg"
+    6 => "Access-Control-Allow-Origin: https://sendgrid.api-docs.io"
+    7 => "Access-Control-Allow-Methods: POST"
+    8 => "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl"
+    9 => "Access-Control-Max-Age: 600"
+    10 => "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html"
+    11 => ""
+    12 => ""
+  ]
+}
