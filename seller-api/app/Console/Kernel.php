@@ -28,7 +28,8 @@ class Kernel extends ConsoleKernel
     {
         $tasksLog = storage_path('/logs/tasks-output.log');
         $schedule->command('sl:daily')
-                ->everyMinute()
+                ->daily()
+                ->at('23:59')
                 ->appendOutputTo($tasksLog);
     }
 
